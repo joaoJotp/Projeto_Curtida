@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+
+    & h1, p{
+
+    margin-bottom: 30px;
+    color: #222;
+    }
+    
+ & .btns {
+display: flex;
+gap: 20px;
+
+& button {
+    padding: 10px 30px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+    }
+}
